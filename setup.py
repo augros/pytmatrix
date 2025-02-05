@@ -68,7 +68,7 @@ def configuration(parent_package='',top_path=None):
 
 if __name__ == "__main__":
 
-    from numpy.distutils.core import setup
+    from setuptools import setup
     setup(configuration=configuration,
         packages = ['pytmatrix','pytmatrix.test','pytmatrix.quadrature',
             'pytmatrix.fortran_tm'],        
